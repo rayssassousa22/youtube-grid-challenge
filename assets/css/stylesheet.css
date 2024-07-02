@@ -10,7 +10,7 @@ header{
     margin: 10px 3vh;
 }
 
-#logo img, button , #perfil-details img {
+#logo img, #perfil-details img {
     margin-left: 1vw;
 }
 
@@ -21,12 +21,12 @@ form input{
 
 main {
     display: flex;
+    flex-direction: row;
 }
 
 nav ul a li{
     list-style: none;
     margin-bottom: 1.5rem;
-    align-content: center;
 }
 
 nav ul a li img{
@@ -41,4 +41,21 @@ nav ul a{
 nav ul{
     margin: 0;
     padding-left: 2.5%;
+}
+
+#view-section{
+    display: grid;
+}
+
+.video-details{
+    display: flex;
+}
+
+.video img{
+    width: 50%;
+}
+
+.video-details img{
+    width: 40px;
+    height: 40px;
 }
