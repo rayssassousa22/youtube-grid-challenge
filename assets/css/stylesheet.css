@@ -18,3 +18,11 @@ form input{
     height: 2rem;
     width: 25vw;
 }
+
+main {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
