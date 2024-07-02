@@ -27,6 +27,7 @@ form input{
 main {
     display: flex;
     flex-direction: row;
+    width: max-content;
 }
 
 nav{
@@ -56,7 +57,7 @@ nav ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: rgba(231, 227, 227, 0.4);
-    padding: 5vh;
+    padding: 10vh;
 }
 
 .videos{
