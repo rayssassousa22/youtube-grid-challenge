@@ -6,12 +6,15 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     margin: 10px 3vh;
 }
 
-#logo img, button img, #perfil-details img {
+#logo img, button , #perfil-details img {
     margin-left: 1vw;
 }
+
 form input{
-    height: 1.5rem;
+    height: 2rem;
+    width: 25vw;
 }
