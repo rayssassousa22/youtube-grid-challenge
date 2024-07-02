@@ -25,4 +25,5 @@ main {
 
 nav ul li {
     list-style: none;
+    margin-bottom: 1rem;
 }
