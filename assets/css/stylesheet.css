@@ -45,17 +45,25 @@ nav ul{
 
 #view-section{
     display: grid;
+    background-color: rgba(231, 227, 227, 0.4);
+    padding: 5vh;
+}
+
+.videos{
+    width: min-content;
 }
 
 .video-details{
     display: flex;
 }
 
-.video img{
-    width: 50%;
-}
-
 .video-details img{
     width: 40px;
     height: 40px;
+    align-self: center;
+}
+
+.details h1, p{
+    font-size: 0.825rem;
+    margin: 5px 5px;
 }
