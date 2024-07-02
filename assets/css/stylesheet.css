@@ -8,3 +8,10 @@ header{
     justify-content: space-between;
     margin: 10px 3vh;
 }
+
+#logo img, button img, #perfil-details img {
+    margin-left: 1vw;
+}
+form input{
+    height: 1.5rem;
+}
