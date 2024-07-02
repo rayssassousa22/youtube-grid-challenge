@@ -72,15 +72,15 @@ nav ul{
     display: flex;
 }
 
-.video-details img{
+.video-details a {
     width: 40px;
     height: 40px;
     align-self: center;
 }
 
-.details h1, p{
+.details a h1, p{
     font-size: 0.825rem;
-    margin: 5px 5px;
+    margin: 5px 10px;
     color: black;
 }
 
