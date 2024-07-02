@@ -64,6 +64,10 @@ nav ul{
     margin: 1vh 2.5vw;
 }
 
+.videos a{
+    text-decoration: none;
+}
+
 .video-details{
     display: flex;
 }
@@ -77,4 +81,9 @@ nav ul{
 .details h1, p{
     font-size: 0.825rem;
     margin: 5px 5px;
+    color: black;
+}
+
+.details p {
+    color: gray;
 }
