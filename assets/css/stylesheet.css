@@ -27,3 +27,8 @@ nav ul li {
     list-style: none;
     margin-bottom: 1rem;
 }
+
+nav ul{
+    margin: 0;
+    padding-left: 3%;
+}
