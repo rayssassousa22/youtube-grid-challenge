@@ -1,0 +1,10 @@
+*{
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 3vh;
+}
